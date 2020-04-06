@@ -1,0 +1,29 @@
+body {
+    background-color: green;
+    /*margin: auto;*/
+}
+
+.black-keys kbd {
+    color: white;
+    display: inline-block;
+    width: 30px;
+    height: 100px;
+    background-color: black;
+    border: solid black;
+    margin: auto;
+}
+
+.white-keys kbd {
+    color: black;
+    display: inline-block;
+    width: 60px;
+    height: 150px;
+    background-color: white;
+    border: solid black;
+    margin: auto;
+}
+
+div {
+    margin: auto;
+    padding: 25% 20%;
+}
