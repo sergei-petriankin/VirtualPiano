@@ -23,19 +23,19 @@ function sSound() {
 
 // black keys
 function eSound() {
-    new Audio("audio/white/E.mp3").play();
+    new Audio("audio/black/E.mp3").play();
 }
 function tSound() {
-    new Audio("audio/white/T.mp3").play();
+    new Audio("audio/black/T.mp3").play();
 }
 function uSound() {
-    new Audio("audio/white/U.mp3").play();
+    new Audio("audio/black/U.mp3").play();
 }
 function wSound() {
-    new Audio("audio/white/W.mp3").play();
+    new Audio("audio/black/W.mp3").play();
 }
 function ySound() {
-    new Audio("audio/white/Y.mp3").play();
+    new Audio("audio/black/Y.mp3").play();
 }
 
 document.addEventListener("keydown", function (e) {
