@@ -6,24 +6,26 @@ body {
 .black-keys kbd {
     color: white;
     display: inline-block;
-    width: 30px;
-    height: 100px;
     background-color: black;
     border: solid black;
     margin: auto;
+    padding: 100px 15px 10px;
+    position: relative;
+    left: 100px;
 }
 
 .white-keys kbd {
     color: black;
     display: inline-block;
-    width: 60px;
-    height: 150px;
+    font-size: 15px;
+    padding: 200px 30px 20px;
     background-color: white;
     border: solid black;
     margin: auto;
+    position: relative;
 }
 
-div {
+.container {
     margin: auto;
-    padding: 25% 20%;
+    position: center;
 }
